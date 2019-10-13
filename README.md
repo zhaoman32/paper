@@ -1,36 +1,48 @@
-##整个QA系统
+## 整个QA系统
 * 《SINA: Semantic interpretation of user queries for question answering on interlinked data》  
 一个在线的QA系统。Web Semantics2014，University of Bonn
 * 《问答系统研究综述》  
 2013FQA、CQA综述
 * 《OKBQA Framework for collaboration on developing natural language question answering systems》  
 2016 一个在线的QA系统。靠模板。
+* 《Deep Learning in Natural Language Processing》
+2018 一本书。深度学习在NLP各个子任务中的综述
 
-##数据集介绍
+
+## 数据集介绍
 * 《A Corpus for Complex Question Answering over Knowledge Graphs》  
 LC_Quad数据集。ISWC2017
+* 《Constraint-Based Question Answering with Knowledge Graph》
+ComplexQuestions COLing 2016
 
-##深度学习模型本身
+## 深度学习模型本身
 * 《Attention Is All You Need》  
 Google2017 Transformer  
 * 《Comparative Study of CNN and RNN for Natural Language Processing》  
 2017 NLP任务中的CNN与RNN的性能比较
 * 《Efficient Estimation of Word Representations in Vector Space》  
 2013 Tomas Mikolov。 word embedding的提出
+* 《Bidirectional LSTM-CRF Models for Sequence Tagging》  
+LSTM+CRF的序列标注模型
 
-##基于模板的方法
+## 基于模板的方法
 * 《AMUSE: Multilingual Semantic Parsing for Question
 Answering over Linked Data》  
 因子图的模板生成
 * 《Automated Template Generation for Question Answering over Knowledge Graphs》  
 根据句法树进行模板生成
 
-
-##基于记忆网络的方法
+## 基于记忆网络的方法
 * 《Ask Me Anything: Dynamic Memory Networks for Natural Language Processing》  
 2016 动态记忆网络的QA
 
-##多模态视觉问答
+## 基于开放域的QA
+* 《Open Domain Question Answering via Semantic Enrichment》  
+WWW2015 基于文本，web，KB的开放域的QA
+* 《CRQA: Crowd-powered Real-time Automatic Question Answering System》  
+2016 AAAI 基于众包的群力问答。针对请求意见、解释、说明或建议
+
+## 多模态视觉问答
 * 《Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering》  
 2015百度中文MQA
 * 《Ask Your Neurons: A Neural-based Approach to Answering Questions about Images》  
@@ -41,7 +53,7 @@ CNN处理图片，LSTM处理QA
 2015 一篇多媒体标题生成的综述性文章
 
 
-##对话系统 & 机器阅读
+## 对话系统 & 机器阅读
 * 《Neural Responding Machine for Short-Text Conversation》  
 ACL2015 encoder-decoder模型
 * 《Learning to Rank Short Text Pairs with Convolutional Deep Neural Networks》  
@@ -51,19 +63,19 @@ CNN的机器阅读 2015
 * 《Bi-directional  Attention Flow for Machine comprehension》  
 ICLR2017. 双向的attention，Query2Context，Context2Query
 
-##机器翻译
+## 机器翻译
 * 《Neural machine translation by jointly learning》  
 ICLR2015 attention的LSTM
 
-##基于管道的方法
+## 基于管道的方法
 * 《Why Reinvent the Wheel – Let’s Build Qestion A》  
 WWW2018 管道模块组合
 
-###关系链接模块
+### 关系链接模块
 * 《Question Answering over Freebase with Multi-Column Convolutional Neural Networks》  
 ACL2015. 多通道的CNN。MCCNN，WEBQUESTIONS，三通道  
 * 《Question Answering over Freebase via Attentive RNN with Similarity Matrix based CNN》  
-左边RNN右边CNN组合,SimpleQuestion  
+2018 左边RNN右边CNN组合,SimpleQuestion  
 * 《Neural Network-based Question Answering over Knowledge Graphs on Word and Character Level》  
 www2017，在word和char-level上的embadding.
 * 《Improved Neural Relation Detection for Knowledge Base Question Answering》  
@@ -73,27 +85,46 @@ ACL2017 HR-BiLSTM两层LSTM+ResNet SimpleQuestions WebQSP
 * 《CFO: Conditional Focused Neural Question Answering with Large-scale Knowledge Bases》  
 2016 关系层面的RNN + 聚焦于条件的概率解释
 
-###查询构建模块
+### 查询构建模块
 * 《Formal Query Generation for Question Answering over Knowledge Bases》  
 ESWC2018 Tree-LSTM  
 * 《面向自然问句的SPARQL查询生成方法研究与实现》    
 西电硕士论文
+* 《Semantic Parsing with Syntax- and Table-Aware SQL Generation》  
+2018 针对于数据表的问答，SQL生成。
 
-###实体和关系的联合
+### 实体和关系的联合
 * 《EARL: Joint Entity and Relation Linking for Question Answering over Knowledge Graphs》  
 ISWC2018 Jens Lehmann。使用了lcquad 0.36 QALD 0.47
+* 《Old is Gold: Linguistic Driven Approach for Entity and Relation Linking of Short Text》
+NAACL2019 实体词典和关系词典 LCquad 0.42
+* 《Question Answering on Freebase via Relation Extraction and Textual Evidence》  
+ACL2016 实体与关系的结果相互重排，同时有利用文本证据
 
-###语言逻辑推理模块
+
+### 语言逻辑推理模块
 * 《Neural Symbolic Machines: Learning Semantic Parsers on Freebase with Weak Supervision》  
 Google2017 WEBQUESTIONSSP 逻辑推理的检索
 
 
-##基于查询图的方法
+## 基于查询图的方法
 * 《Semantic Parsing via Staged Query Graph Generation:Question Answering with Knowledge Base》  
 ACL2015 F1 52.5% WEBQUESTIONS 查询图的迭代生成，NN做辅助
+* 《A State-transition Framework to Answer Complex Questions over Knowledge Base》  
+ACL2018 北大邹磊 查询图的拓展生成，连接合并拓展折叠。  
+* 《Answering Natural Language Questions by Subgraph Matching over Knowledge Graphs》  
+邹磊查询图的整体架构原文
+* 《More Accurate Question Answering on Freebase》
+CIKM2015 查询图模板
 
-##基于端到端的方法
+## 基于端到端的方法
 * 《Question Answering over Knowledge Base with Neural Attention Combining Global Knowledge Information》  
 4个attention的LSTM。WEBQUESTIONS  
 * 《Learning to Paraphrase for Question Answering》  
 2017 question和Paraphrase输入，综合条件概率得分
+* 《Question Answering with Subgraph Embeddings》  
+2014 问题和答案子图进行编码比较
+
+## 情感分类
+* 《Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions》  
+预测情绪分布的半监督递归自编码器
