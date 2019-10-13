@@ -5,14 +5,14 @@
 2013FQA、CQA综述
 * 《OKBQA Framework for collaboration on developing natural language question answering systems》  
 2016 一个在线的QA系统。靠模板。
-* 《Deep Learning in Natural Language Processing》
+* 《Deep Learning in Natural Language Processing》  
 2018 一本书。深度学习在NLP各个子任务中的综述
 
 
 ## 数据集介绍
 * 《A Corpus for Complex Question Answering over Knowledge Graphs》  
 LC_Quad数据集。ISWC2017
-* 《Constraint-Based Question Answering with Knowledge Graph》
+* 《Constraint-Based Question Answering with Knowledge Graph》  
 ComplexQuestions COLing 2016
 
 ## 深度学习模型本身
@@ -96,7 +96,7 @@ ESWC2018 Tree-LSTM
 ### 实体和关系的联合
 * 《EARL: Joint Entity and Relation Linking for Question Answering over Knowledge Graphs》  
 ISWC2018 Jens Lehmann。使用了lcquad 0.36 QALD 0.47
-* 《Old is Gold: Linguistic Driven Approach for Entity and Relation Linking of Short Text》
+* 《Old is Gold: Linguistic Driven Approach for Entity and Relation Linking of Short Text》  
 NAACL2019 实体词典和关系词典 LCquad 0.42
 * 《Question Answering on Freebase via Relation Extraction and Textual Evidence》  
 ACL2016 实体与关系的结果相互重排，同时有利用文本证据
@@ -120,6 +120,8 @@ CIKM2015 查询图模板
 ## 基于端到端的方法
 * 《Question Answering over Knowledge Base with Neural Attention Combining Global Knowledge Information》  
 4个attention的LSTM。WEBQUESTIONS  
+* 《An End-to-End Model for Question Answering over Knowledge Base withCross-Attention Combining Global Knowledge》  
+ACL2017 4个attention的cross-attention改进版。Webquestion
 * 《Learning to Paraphrase for Question Answering》  
 2017 question和Paraphrase输入，综合条件概率得分
 * 《Question Answering with Subgraph Embeddings》  
