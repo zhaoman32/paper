@@ -14,6 +14,8 @@
 LC_Quad数据集。ISWC2017
 * 《Constraint-Based Question Answering with Knowledge Graph》  
 ComplexQuestions COLing 2016
+* 《SQuAD 100,000+ Questions for Machine Comprehension of Text》  
+2016ACL 机器阅读的一个数据集SQuAD
 
 ## 深度学习模型本身
 * 《Attention Is All You Need》  
@@ -24,6 +26,23 @@ Google2017 Transformer
 2013 Tomas Mikolov。 word embedding的提出
 * 《Bidirectional LSTM-CRF Models for Sequence Tagging》  
 LSTM+CRF的序列标注模型
+* 《Generative Adversarial Nets》  
+生成性对抗网络GAN
+* 《GloVe Global Vectors for Word Representation》  
+ACL2014 GloVe词向量
+* 《Dynamic Routing Between Capsules》  
+NIPS2017 胶囊网络之间的动态路由
+* 《Identity Mappings in Deep Residual Networks》  《Deep Residual Learning for Image Recognition》  
+2016何凯明 ResNet
+* 《Improved Techniques for Training GANs》  
+2016GAN的一种训练方式
+* 《Unsupervised Representation Learning With Deep Convolutional Generative Adversarial Networks》  
+ICLR2016 基于深层卷积生成对抗网络的无监督表示学习
+* 《NIPS 2016 Tutorial: Generative Adversarial Networks》  
+GAN2016NIPS
+* 《End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF》  
+2016 LSTM+CRF的序列标注
+
 
 ## 基于模板的方法
 * 《AMUSE: Multilingual Semantic Parsing for Question
@@ -41,6 +60,8 @@ Answering over Linked Data》
 WWW2015 基于文本，web，KB的开放域的QA
 * 《CRQA: Crowd-powered Real-time Automatic Question Answering System》  
 2016 AAAI 基于众包的群力问答。针对请求意见、解释、说明或建议
+* 《Reading Wikipedia to Answer Open-Domain Questions》  
+ACL2017 基于Wikipedia的开放回答
 
 ## 多模态视觉问答
 * 《Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering》  
@@ -62,6 +83,8 @@ CNN的机器阅读 2015
 2017cmu 多种encoder和decoder的组合成对话系统
 * 《Bi-directional  Attention Flow for Machine comprehension》  
 ICLR2017. 双向的attention，Query2Context，Context2Query
+* 《Text Understanding with the Attention Sum Reader Network》  
+ACL2016 用attention加和处理机器阅读
 
 ## 机器翻译
 * 《Neural machine translation by jointly learning》  
@@ -130,3 +153,6 @@ ACL2017 4个attention的cross-attention改进版。Webquestion
 ## 情感分类
 * 《Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions》  
 预测情绪分布的半监督递归自编码器
+
+## NLP相关
+* 《LDA漫游》
