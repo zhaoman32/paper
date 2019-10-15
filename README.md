@@ -18,12 +18,14 @@ ComplexQuestions COLing 2016
 2016ACL 机器阅读的一个数据集SQuAD
 * 《HotpotQA A Dataset for Diverse, Explainable Multi-hop Question Answering》  
 2018EMNLP 多跳机器阅读的数据集
-* 《DocRED: A Large-Scale Document-Level Relation Extraction Dataset》
+* 《DocRED: A Large-Scale Document-Level Relation Extraction Dataset》  
 ACL2019 清华刘知远 文档级别的关系抽取，文档中两个entity的relation，来自于wiki
 
 ## 深度学习模型本身
 * 《Attention Is All You Need》  
 Google2017 Transformer  
+* 《BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding》  
+2019年大名鼎鼎的BERT
 * 《Comparative Study of CNN and RNN for Natural Language Processing》  
 2017 NLP任务中的CNN与RNN的性能比较
 * 《Efficient Estimation of Word Representations in Vector Space》  
@@ -89,10 +91,14 @@ CNN的机器阅读 2015
 ICLR2017. 双向的attention，Query2Context，Context2Query
 * 《Text Understanding with the Attention Sum Reader Network》  
 ACL2016 用attention加和处理机器阅读
+* 《Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention》  
+ACL2019  多层Self-Attention的对话生成
 
 ## 机器翻译
 * 《Neural machine translation by jointly learning》  
 ICLR2015 attention的LSTM
+* 《Syntactically Supervised Transformers for Faster Neural Machine Translation》  
+ACL2019 Transformers用于机器翻译
 
 ## 基于管道的方法
 * 《Why Reinvent the Wheel – Let’s Build Qestion A》  
@@ -119,6 +125,8 @@ ESWC2018 Tree-LSTM
 西电硕士论文
 * 《Semantic Parsing with Syntax- and Table-Aware SQL Generation》  
 2018 针对于数据表的问答，SQL生成。
+* 《towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation》  
+ACL2019 Text-to-SQL  对SPARQL有借鉴
 
 ### 实体和关系的联合
 * 《EARL: Joint Entity and Relation Linking for Question Answering over Knowledge Graphs》  
@@ -132,6 +140,8 @@ ACL2016 实体与关系的结果相互重排，同时有利用文本证据
 ### 语言逻辑推理模块
 * 《Neural Symbolic Machines: Learning Semantic Parsers on Freebase with Weak Supervision》  
 Google2017 WEBQUESTIONSSP 逻辑推理的检索
+* 《RankQA Neural Question Answering with Answer Re-Ranking》  
+ACL2019 机器阅读的答案重排  
 
 
 ## 基于查询图的方法
