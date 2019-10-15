@@ -16,6 +16,10 @@ LC_Quad数据集。ISWC2017
 ComplexQuestions COLing 2016
 * 《SQuAD 100,000+ Questions for Machine Comprehension of Text》  
 2016ACL 机器阅读的一个数据集SQuAD
+* 《HotpotQA A Dataset for Diverse, Explainable Multi-hop Question Answering》  
+2018EMNLP 多跳机器阅读的数据集
+* 《DocRED: A Large-Scale Document-Level Relation Extraction Dataset》
+ACL2019 清华刘知远 文档级别的关系抽取，文档中两个entity的relation，来自于wiki
 
 ## 深度学习模型本身
 * 《Attention Is All You Need》  
@@ -154,5 +158,10 @@ ACL2017 4个attention的cross-attention改进版。Webquestion
 * 《Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions》  
 预测情绪分布的半监督递归自编码器
 
-## NLP相关
-* 《LDA漫游》
+## NLP相关 
+* 《A Discriminative Graph-Based Parser for the Abstract Meaning Representation》  
+ACL2014 Jamr工具，将自然句转换成amr树结构。句法解析
+
+## 基于GCN的方法
+* 《GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction》  
+ACL2019 用Bi-GCN 从文本中抽取出实体关系图。
