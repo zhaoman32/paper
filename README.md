@@ -23,9 +23,9 @@ ACL2019 清华刘知远 文档级别的关系抽取，文档中两个entity的re
 
 ## 深度学习模型本身
 * 《Attention Is All You Need》  
-Google2017 Transformer  
+Google2017 大名鼎鼎的Transformer  
 * 《BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding》  
-2019年大名鼎鼎的BERT
+2018年大名鼎鼎的BERT
 * 《Comparative Study of CNN and RNN for Natural Language Processing》  
 2017 NLP任务中的CNN与RNN的性能比较
 * 《Efficient Estimation of Word Representations in Vector Space》  
