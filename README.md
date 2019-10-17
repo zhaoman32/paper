@@ -20,6 +20,12 @@ ComplexQuestions COLing 2016
 2018EMNLP 多跳机器阅读的数据集
 * 《DocRED: A Large-Scale Document-Level Relation Extraction Dataset》  
 ACL2019 清华刘知远 文档级别的关系抽取，文档中两个entity的relation，来自于wiki
+* 《COMMONSENSEQA: A Question Answering Challenge Targeting Commonsense Knowledge》  
+2019NAACL 一个常识性的QA数据集
+* 《ComQA: A Community-sourced Dataset for Complex Factoid Question Answering with Paraphrase Clusters》  
+2019NAACL 来自wiki的1000个问答对
+* 《FreebaseQA A New Factoid QA Dataset Matching Trivia-Style Question-Answer Pairs with Freebase》  
+2019NAACL基于freebase的数据集，问句实体关系，两万多条
 
 ## 深度学习模型本身
 * 《Attention Is All You Need》  
@@ -60,6 +66,11 @@ Answering over Linked Data》
 ## 基于记忆网络的方法
 * 《Ask Me Anything: Dynamic Memory Networks for Natural Language Processing》  
 2016 动态记忆网络的QA
+* 《Bidirectional Attentive Memory Networks for Question Answering over Knowledge Bases》  
+2019NAACL 基于双向attention的记忆网络，WebQuestions F1 0.557
+* 《Enhancing Key-Value Memory Neural Networks for Knowledge Based Question Answering》  
+2019NAACL 记忆网络转化成结构化查询，QALD
+
 
 ## 基于开放域的QA
 * 《Open Domain Question Answering via Semantic Enrichment》  
@@ -93,6 +104,10 @@ ICLR2017. 双向的attention，Query2Context，Context2Query
 ACL2016 用attention加和处理机器阅读
 * 《Semantically Conditioned Dialog Response Generation via Hierarchical Disentangled Self-Attention》  
 ACL2019  多层Self-Attention的对话生成
+* 《Question Answering by Reasoning Across Documents with Graph Convolutional Networks》  
+2019NAACL 跨文档的问答，基于GCN
+* 《Relation Classification Using Segment-Level Attention-based CNN and Dependency-based RNN》  
+2019NAACL 基于CNN和LSTM组合的关系分类。SemEval2010 Task8任务。对于给定了的句子和两个做了标注的名词，从给定的关系清单(9大关系 如因果关系)中选出最合适的关系。
 
 ## 机器翻译
 * 《Neural machine translation by jointly learning》  
@@ -135,6 +150,9 @@ ISWC2018 Jens Lehmann。使用了lcquad 0.36 QALD 0.47
 NAACL2019 实体词典和关系词典 LCquad 0.42
 * 《Question Answering on Freebase via Relation Extraction and Textual Evidence》  
 ACL2016 实体与关系的结果相互重排，同时有利用文本证据
+* 《Simple Question Answering with Subgraph Ranking and Joint-Scoring》  
+2019NAACL 改进子图选择，新的loss，陈永锐讲过
+
 
 
 ### 语言逻辑推理模块
@@ -175,3 +193,5 @@ ACL2014 Jamr工具，将自然句转换成amr树结构。句法解析
 ## 基于GCN的方法
 * 《GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction》  
 ACL2019 用Bi-GCN 从文本中抽取出实体关系图。
+* 《Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks》  
+NAACL2019 长尾关系抽取
