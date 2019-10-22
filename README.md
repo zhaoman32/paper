@@ -110,6 +110,8 @@ ACL2019  多层Self-Attention的对话生成
 2019NAACL 跨文档的问答，基于GCN
 * 《Relation Classification Using Segment-Level Attention-based CNN and Dependency-based RNN》  
 2019NAACL 基于CNN和LSTM组合的关系分类。SemEval2010 Task8任务。对于给定了的句子和两个做了标注的名词，从给定的关系清单(9大关系 如因果关系)中选出最合适的关系。
+* 《Cross-Lingual Machine Reading Comprehension》
+EMNLP2019 跨语言的机器阅读理解 用的bert
 
 ## 机器翻译
 * 《Neural machine translation by jointly learning》  
@@ -164,6 +166,8 @@ ACL2016 实体与关系的结果相互重排，同时有利用文本证据
 Google2017 WEBQUESTIONSSP 逻辑推理的检索
 * 《RankQA Neural Question Answering with Answer Re-Ranking》  
 ACL2019 机器阅读的答案重排  
+* 《KagNet: Knowledge-Aware Graph Networks for Commonsense Reasoning》  
+EMNLP2019 常识推理图网络
 
 
 ## 基于查询图的方法
