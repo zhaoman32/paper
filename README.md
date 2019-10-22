@@ -26,6 +26,8 @@ ACL2019 清华刘知远 文档级别的关系抽取，文档中两个entity的re
 2019NAACL 来自wiki的1000个问答对
 * 《FreebaseQA A New Factoid QA Dataset Matching Trivia-Style Question-Answer Pairs with Freebase》  
 2019NAACL基于freebase的数据集，问句实体关系，两万多条
+* 《Difficulty-Controllable Multi-hop Question Generation from Knowledge Graphs》  
+2019ISWC 一个多跳数据集的生成，只有问句和答案
 
 ## 深度学习模型本身
 * 《Attention Is All You Need》  
@@ -153,7 +155,7 @@ ACL2016 实体与关系的结果相互重排，同时有利用文本证据
 * 《Simple Question Answering with Subgraph Ranking and Joint-Scoring》  
 2019NAACL 改进子图选择，新的loss，陈永锐讲过
 * 《Entity Enabled Relation Linking》  
-2019ISWC 假设关系来自于字面量or实体附近，实体关系对字面关系进行重排 
+2019ISWC 假设关系来自于字面量or实体附近，实体关系对字面关系进行重排 lcquad0.53
 
 
 
