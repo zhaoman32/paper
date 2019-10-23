@@ -146,6 +146,9 @@ ESWC2018 Tree-LSTM
 2018 针对于数据表的问答，SQL生成。
 * 《towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation》  
 ACL2019 Text-to-SQL  对SPARQL有借鉴
+* 《Learning to Rank Query Graphs for Complex Question Answering over Knowledge Graphs》  
+查询图的排序模型，利用self attention 和 skip connections对候选排序
+
 
 ### 实体和关系的联合
 * 《EARL: Joint Entity and Relation Linking for Question Answering over Knowledge Graphs》  
