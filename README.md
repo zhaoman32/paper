@@ -206,3 +206,8 @@ ACL2014 Jamr工具，将自然句转换成amr树结构。句法解析
 ACL2019 用Bi-GCN 从文本中抽取出实体关系图。
 * 《Long-tail Relation Extraction via Knowledge Graph Embeddings and Graph Convolution Networks》  
 NAACL2019 长尾关系抽取
+
+## 迁移学习
+* 《SGDR Stochastic Gradient Descent with Warm Restarts》  
+ICLR2017 带热重启的随机梯度下降 余弦退火的可随机重启的学习率下降
+* 《》
