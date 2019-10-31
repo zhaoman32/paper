@@ -182,6 +182,8 @@ ACL2018 北大邹磊 查询图的拓展生成，连接合并拓展折叠。
 邹磊查询图的整体架构原文
 * 《More Accurate Question Answering on Freebase》
 CIKM2015 查询图模板
+* 《Learning_to_Rank_Query_Graphs_for_Complex_Question》  
+ISWC2019 查询图的排序 slot-match方法找出最优核心链
 
 ## 基于端到端的方法
 * 《Question Answering over Knowledge Base with Neural Attention Combining Global Knowledge Information》  
