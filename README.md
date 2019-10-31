@@ -202,6 +202,8 @@ ACL2017 4个attention的cross-attention改进版。Webquestion
 ## NLP相关 
 * 《A Discriminative Graph-Based Parser for the Abstract Meaning Representation》  
 ACL2014 Jamr工具，将自然句转换成amr树结构。句法解析
+* 《A decomposable attention model for natural language inference》    
+ACL2016 基于cross-attention的语义推断
 
 ## 基于GCN的方法
 * 《GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction》  
