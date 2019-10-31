@@ -26,6 +26,8 @@ ACL2019 清华刘知远 文档级别的关系抽取，文档中两个entity的re
 2019NAACL 来自wiki的1000个问答对
 * 《FreebaseQA A New Factoid QA Dataset Matching Trivia-Style Question-Answer Pairs with Freebase》  
 2019NAACL基于freebase的数据集，问句实体关系，两万多条
+* 《The web as a knowledge-base for answering complex questions》  
+2018NAACL 基于freebase的复杂句问答，有SPARQL，特别多的辅助约束
 * 《Difficulty-Controllable Multi-hop Question Generation from Knowledge Graphs》  
 2019ISWC 一个多跳数据集的生成，只有问句和答案
 * 《TensorLog: A Differentiable Deductive Database》  
@@ -122,7 +124,7 @@ ICLR2015 attention的LSTM
 ACL2019 Transformers用于机器翻译
 
 ## 基于管道的方法
-* 《Why Reinvent the Wheel – Let’s Build Qestion A》  
+* 《Why Reinvent the Wheel – Let’s Build Question Answer》  
 WWW2018 管道模块组合
 * 《Pretrained Transformers for Simple Question Answering over Knowledge Graphs》  
 ISWC2019 预训练的transformer来解决KBQA
@@ -150,8 +152,6 @@ ESWC2018 Tree-LSTM
 2018 针对于数据表的问答，SQL生成。
 * 《towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation》  
 ACL2019 Text-to-SQL  对SPARQL有借鉴
-* 《Learning to Rank Query Graphs for Complex Question Answering over Knowledge Graphs》  
-查询图的排序模型，利用self attention 和 skip connections对候选排序
 * 《A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization》  
 arxiv2019 从表映射到sql
 * 《X-SQL: Reinforce Context Into Schema Representation》 
@@ -178,6 +178,8 @@ Google2017 WEBQUESTIONSSP 逻辑推理的检索
 ACL2019 机器阅读的答案重排  
 * 《KagNet: Knowledge-Aware Graph Networks for Commonsense Reasoning》  
 EMNLP2019 常识推理图网络
+* 《A decomposable attention model for natural language inference》    
+ACL2016 基于cross-attention的语义推断
 
 
 ## 基于查询图的方法
@@ -209,8 +211,7 @@ ACL2017 4个attention的cross-attention改进版。Webquestion
 ## NLP相关 
 * 《A Discriminative Graph-Based Parser for the Abstract Meaning Representation》  
 ACL2014 Jamr工具，将自然句转换成amr树结构。句法解析
-* 《A decomposable attention model for natural language inference》    
-ACL2016 基于cross-attention的语义推断
+
 
 ## 基于GCN的方法
 * 《GraphRel: Modeling Text as Relational Graphs for Joint Entity and Relation Extraction》  
