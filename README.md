@@ -28,6 +28,8 @@ ACL2019 清华刘知远 文档级别的关系抽取，文档中两个entity的re
 2019NAACL基于freebase的数据集，问句实体关系，两万多条
 * 《Difficulty-Controllable Multi-hop Question Generation from Knowledge Graphs》  
 2019ISWC 一个多跳数据集的生成，只有问句和答案
+* 《TensorLog: A Differentiable Deductive Database》  
+2016 查询图可微操作的数据库
 
 ## 深度学习模型本身
 * 《Attention Is All You Need》  
@@ -148,7 +150,10 @@ ESWC2018 Tree-LSTM
 ACL2019 Text-to-SQL  对SPARQL有借鉴
 * 《Learning to Rank Query Graphs for Complex Question Answering over Knowledge Graphs》  
 查询图的排序模型，利用self attention 和 skip connections对候选排序
-
+* 《A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization》  
+arxiv2019 从表映射到sql
+* 《X-SQL: Reinforce Context Into Schema Representation》 
+arxiv2019 依据上下文的SQL 
 
 ### 实体和关系的联合
 * 《EARL: Joint Entity and Relation Linking for Question Answering over Knowledge Graphs》  
