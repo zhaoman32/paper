@@ -214,4 +214,6 @@ NAACL2019 长尾关系抽取
 ## 迁移学习
 * 《SGDR Stochastic Gradient Descent with Warm Restarts》  
 ICLR2017 带热重启的随机梯度下降 余弦退火的可随机重启的学习率下降
-* 《》
+* 《Universal Language Model Fine-tuning for Text Classification》  
+ACL2018 预训练+微调 斜三角学习率调整
+
