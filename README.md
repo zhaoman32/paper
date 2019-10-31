@@ -124,6 +124,8 @@ ACL2019 Transformers用于机器翻译
 ## 基于管道的方法
 * 《Why Reinvent the Wheel – Let’s Build Qestion A》  
 WWW2018 管道模块组合
+* 《Pretrained Transformers for Simple Question Answering over Knowledge Graphs》  
+ISWC2019 预训练的transformer来解决KBQA
 
 ### 关系链接模块
 * 《Question Answering over Freebase with Multi-Column Convolutional Neural Networks》  
@@ -220,5 +222,5 @@ NAACL2019 长尾关系抽取
 * 《SGDR Stochastic Gradient Descent with Warm Restarts》  
 ICLR2017 带热重启的随机梯度下降 余弦退火的可随机重启的学习率下降
 * 《Universal Language Model Fine-tuning for Text Classification》  
-ACL2018 预训练+微调 斜三角学习率调整
+ACL2018 预训练+微调 斜三角学习率调整 
 
