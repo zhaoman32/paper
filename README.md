@@ -128,6 +128,8 @@ ACL2019 Transformers用于机器翻译
 WWW2018 管道模块组合
 * 《Pretrained Transformers for Simple Question Answering over Knowledge Graphs》  
 ISWC2019 预训练的transformer来解决KBQA
+* 《Introduction to Neural Network based Approaches for Question Answering over Knowledge Graphs》  
+ISWC2019 综述 基于NN的KBQA
 
 ### 关系链接模块
 * 《Question Answering over Freebase with Multi-Column Convolutional Neural Networks》  
