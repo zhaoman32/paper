@@ -195,7 +195,7 @@ ACL2018 北大邹磊 查询图的拓展生成，连接合并拓展折叠。
 CIKM2015 查询图模板
 * 《Learning_to_Rank_Query_Graphs_for_Complex_Question》  
 ISWC2019 查询图的排序 slot-match方法找出最优核心链
-* 《Knowledge Base Question Answering via Encodin of Complex Query Graphs》  
+* 《Knowledge Base Question Answering via Encoding of Complex Query Graphs》  
 ACL2018 查询图的谓语组件分开，与问题编码比较 
 
 ## 基于端到端的方法
