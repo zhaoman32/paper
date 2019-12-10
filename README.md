@@ -206,7 +206,7 @@ ACL2017 4个attention的cross-attention改进版。Webquestion
 * 《Learning to Paraphrase for Question Answering》  
 2017 question和Paraphrase输入，综合条件概率得分
 * 《Question Answering with Subgraph Embeddings》  
-2014 问题和答案子图进行编码比较 
+2014 问题和答案子图进行编码比较
 
 ## 情感分类
 * 《Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions》  
