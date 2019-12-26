@@ -85,6 +85,8 @@ WWW2015 基于文本，web，KB的开放域的QA
 2016 AAAI 基于众包的群力问答。针对请求意见、解释、说明或建议
 * 《Reading Wikipedia to Answer Open-Domain Questions》  
 ACL2017 基于Wikipedia的开放回答
+*  《Language Models as Knowledge Bases?》
+2019 将bert代替KG
 
 ## 多模态视觉问答
 * 《Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question Answering》  
